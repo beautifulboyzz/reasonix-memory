@@ -21,6 +21,18 @@ for f in os.listdir(BASE):
         break
 
 CUTOFF = "2000-01-01"  # 不限日期，提取全部
+
+# ── Apple 系统来源识别 ──
+APPLE_SOURCES = ["Apple Watch", "Apple", "Watch", "时钟", "健康", "iPhone"]
+
+def is_apple_source(src):
+    """判断是否是 Apple 系统原生来源"""
+    if not src:
+        return False
+    for kw in APPLE_SOURCES:
+        if kw in src:
+            return True
+    return False
 SLEEP_MAP = {"InBed": "在床", "Unspecified": "未指定", "Core": "核心", "Deep": "深睡", "REM": "REM", "Awake": "清醒"}
 
 print(f"处理: {os.path.basename(TARGET)} | 范围: {CUTOFF}~至今")
@@ -61,15 +73,24 @@ for event, elem in context:
     sdate = elem.get("startDate", "")
     edate = elem.get("endDate", "")
     date = sdate[:10]
+    src_name = elem.get("sourceName", "")
     if date < CUTOFF:
+        elem.clear()
+        continue
+
+    # 非 Apple 系统来源跳过（睡眠单独处理）
+    if rtype != "HKCategoryTypeIdentifierSleepAnalysis" and not is_apple_source(src_name):
         elem.clear()
         continue
 
     matched += 1
     try:
-        # 睡眠（特殊处理：按来源去重）
+        # 睡眠（特殊处理：按来源去重，仅 Apple 系统）
         if rtype == "HKCategoryTypeIdentifierSleepAnalysis":
             src = elem.get("sourceName", "未知").replace(" ", "_")
+            if not is_apple_source(src):
+                elem.clear()
+                continue
             if src not in d["sleep_src"]:
                 d["sleep_src"][src] = {}
             if date not in d["sleep_src"][src]:

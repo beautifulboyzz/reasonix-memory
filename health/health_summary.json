@@ -1,33 +1,28 @@
 {
   "提取日期": "2026-07-14",
   "数据类型": {
-    "steps": 3915,
-    "distance": 3910,
-    "rhr": 617,
-    "hr_min": 978,
-    "hr_max": 978,
-    "hrv": 577,
-    "resp": 471,
-    "spo2": 366,
-    "active": 1050,
-    "basal": 1133,
-    "weight": 132,
-    "bodyfat": 61,
-    "leanmass": 58,
-    "bmi": 76,
-    "water": 17
+    "steps": 2686,
+    "distance": 2681,
+    "rhr": 269,
+    "hr_min": 497,
+    "hr_max": 497,
+    "hrv": 199,
+    "resp": 165,
+    "spo2": 0,
+    "active": 565,
+    "basal": 692,
+    "weight": 51,
+    "bodyfat": 0,
+    "leanmass": 0,
+    "bmi": 0,
+    "water": 1
   },
   "睡眠来源": {
     "时钟": 47,
-    "Gerfield": 739,
-    "黎程进的Apple Watch": 151,
-    "AutoSleep": 423,
-    "Pillow": 371,
-    "🪺🍀🪐": 297,
-    "BodyCharge": 1
+    "黎程进的Apple Watch": 151
   },
   "RHR": {
-    "平均": "58",
+    "平均": "57",
     "最低": "37",
     "最高": "88"
   }
