@@ -23,7 +23,7 @@ for f in os.listdir(BASE):
 CUTOFF = "2000-01-01"  # 不限日期，提取全部
 
 # ── Apple 系统来源识别 ──
-APPLE_SOURCES = ["Apple Watch", "Apple", "Watch", "时钟", "健康", "iPhone"]
+APPLE_SOURCES = ["Apple Watch", "Apple", "Watch", "时钟", "健康", "iPhone", "Grow"]
 
 def is_apple_source(src):
     """判断是否是 Apple 系统原生来源"""

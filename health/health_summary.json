@@ -11,11 +11,11 @@
     "spo2": 0,
     "active": 565,
     "basal": 692,
-    "weight": 51,
-    "bodyfat": 0,
+    "weight": 52,
+    "bodyfat": 1,
     "leanmass": 0,
     "bmi": 0,
-    "water": 1
+    "water": 2
   },
   "睡眠来源": {
     "时钟": 47,
