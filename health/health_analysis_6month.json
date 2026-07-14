@@ -1,0 +1,37 @@
+{
+  "sleep": {
+    "days": 28,
+    "avg_total_h": 7.6,
+    "avg_deep_h": 1.0,
+    "avg_deep_pct": 13.5,
+    "avg_rem_h": 2.1,
+    "range_total": "5.4~11.0h",
+    "deep_good_rate": "2/28=7%"
+  },
+  "rhr": {
+    "days": 27,
+    "avg": 60,
+    "min": 50,
+    "max": 72,
+    "june_avg": 62,
+    "july_avg": 57
+  },
+  "hrv": {
+    "days": 34,
+    "avg": 60,
+    "min": 35,
+    "max": 82,
+    "june_avg": 58,
+    "july_avg": 64
+  },
+  "steps": {
+    "days": 37,
+    "avg": 3828,
+    "min": 34,
+    "max": 9878
+  },
+  "active": {
+    "days": 38,
+    "avg_daily_kcal": 252
+  }
+}

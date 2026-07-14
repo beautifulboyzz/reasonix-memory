@@ -1,0 +1,21 @@
+{
+  "sleep_src": 1,
+  "steps": 52,
+  "distance": 52,
+  "rhr": 36,
+  "hr_min": 50,
+  "hr_max": 50,
+  "hrv": 46,
+  "resp": 41,
+  "spo2": 44,
+  "active": 53,
+  "basal": 54,
+  "weight": 0,
+  "bodyfat": 1,
+  "leanmass": 0,
+  "bmi": 0,
+  "water": 0,
+  "sleep_sources": {
+    "🪺🍀🪐": 42
+  }
+}
