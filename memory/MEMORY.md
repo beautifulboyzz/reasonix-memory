@@ -1,5 +1,6 @@
 # Memory
 
+- [默认无运动，有运动需告知](activity-default-assumption.md) — 平时默认无运动，有运动用户会主动说或我分析前先问
 - [AI-Trader 平台 - Reasonix-Trader 接入](ai-trader-reasonix-trader.md) — Reasonix-Trader 在 ai4trade.ai 上的 Agent 身份信息
 - [自动同意工具调用](auto-approve-tools.md) — 用户要求 Reasonix 自动执行工具，不需要每次手动确认
 - [正确作息时间表（修正版）](corrected-daily-schedule.md) — 用户实际作息：12:00起床，21-02点个人时间非夜盘交易
