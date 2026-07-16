@@ -5,6 +5,7 @@
 - [正确作息时间表（修正版）](corrected-daily-schedule.md) — 用户实际作息：12:00起床，21-02点个人时间非夜盘交易
 - [本机定时任务一览](daily-scheduled-tasks.md) — 两台本机定时任务：15:00 换月提醒 / 17:00 天勤数据入库
 - [ec(欧线) tick=0.5 修复](ec-tick-fix-0-5.md) — ec(欧线) tick=0.5 不是 0.1，contract_specs.py 已修
+- [食材采购：多多→朴朴切换](groceries-duoduo-to-pupu.md) — 多多买菜品质差，吃完这批换回朴朴
 - [健康数据基准（Apple Watch）](health-data-baseline.md) — Apple Health数据：深睡13.5%/静息心率57/日均3828步
 - [薪资结构与涨薪计划](salary-info.md) — 夜班到手9,500/底薪7,000/8月底谈薪目标10,000
 - [0609会话：SimNow修复+档案更新+今晚夜盘](session-2026-06-09-simnow-fix.md) — 记录了今天所有已完成和待办事项，重启后无缝接续
