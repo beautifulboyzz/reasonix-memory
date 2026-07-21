@@ -3,6 +3,7 @@
 - [默认无运动，有运动需告知](activity-default-assumption.md) — 平时默认无运动，有运动用户会主动说或我分析前先问
 - [AI-Trader 平台 - Reasonix-Trader 接入](ai-trader-reasonix-trader.md) — Reasonix-Trader 在 ai4trade.ai 上的 Agent 身份信息
 - [自动同意工具调用](auto-approve-tools.md) — 用户要求 Reasonix 自动执行工具，不需要每次手动确认
+- [2025年终奖结构：期货组Package 10万](bonus-structure-2025.md) — 2025年期货组PnL 480万 → 年终Package 10万，奖金池/PnL≈2.08%
 - [正确作息时间表（修正版）](corrected-daily-schedule.md) — 用户实际作息：12:00起床，21-02点个人时间非夜盘交易
 - [本机定时任务一览](daily-scheduled-tasks.md) — 两台本机定时任务：15:00 换月提醒 / 17:00 天勤数据入库
 - [ec(欧线) tick=0.5 修复](ec-tick-fix-0-5.md) — ec(欧线) tick=0.5 不是 0.1，contract_specs.py 已修
